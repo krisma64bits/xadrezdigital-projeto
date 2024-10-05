@@ -1,0 +1,48 @@
+$primary-color: #18181B; /* Cor primária */
+$primary-dark: #09090b;  /* Versão mais escura da cor primária */
+$primary-light: #a1a1aa; /* Versão mais clara da cor primária */
+
+$secondary-color: #ff6E01; /* Cor secundária */
+$secondary-dark: #7c2d12;  /* Versão mais escura da cor secundária */
+$secondary-light: #fed7aa; /* Versão mais clara da cor secundária */
+
+$background-color: #f9f9f9; /* Cor de fundo do site */
+$text-color: #333333;       /* Cor do texto principal */
+$text-muted: #7f8c8d;       /* Cor do texto menos destacado */
+
+$border-color: #dcdcdc;     /* Cor das bordas */
+
+$box-shadow-border: 0px 1px 2px -1px rgba(0, 0, 0, 0.10), 
+                   0px 1px 3px 0px rgba(0, 0, 0, 0.10);
+
+$border-radius: 6px;
+
+$success-color: #28a745;    /* Cor de sucesso */
+$error-color: #e74c3c;      /* Cor de erro */
+$warning-color: #f39c12;    /* Cor de aviso */
+
+$link-color: $primary-color; /* Cor dos links */
+$link-hover-color: $primary-dark; /* Cor dos links ao passar o mouse */
+
+
+/*
+
+=================== BUTTONS ===================
+
+*/
+
+$button-border-radius: 6px;
+$button-bg-color: $primary-color; /* Cor de fundo dos botões */
+$button-bg-color2: #ff6E01; /* Cor de fundo dos botões */
+$button-hover-bg-color: $secondary-dark; /* Cor de fundo dos botões ao passar o mouse */
+$button-text-color: #FAFAFA; /* Cor do texto dos botões */
+
+
+/*
+
+=================== BOX ===================
+
+
+*/
+
+$box-background-color-light: #FFF

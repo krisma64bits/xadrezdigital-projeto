@@ -1,0 +1,43 @@
+.main-banner {
+    height: 100%;
+    max-height: 800px;
+    background-color: #E1E6EF;
+
+    .main-banner-wrapper {
+        display: flex;
+        align-items: center;
+        box-sizing: border-box;
+        padding: 20px 0;
+        gap: 100px;
+
+        .main-banner-img {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            max-width: 50%;
+        }
+
+        .main-banner-content {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            width: 100%;
+            max-width: 50%;
+
+        }
+
+
+
+        .main-banner-title {
+            font-size: 48px;
+            font-weight: 700;
+            letter-spacing: -3px;
+        }
+
+        .main-banner-description {
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 1.2;
+        }
+    }
+}

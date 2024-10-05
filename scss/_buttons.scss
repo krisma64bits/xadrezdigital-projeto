@@ -1,0 +1,30 @@
+.btn-secondary {
+    display: inline-flex;
+    height: 2.5rem;
+    padding: 0.125rem 0.25rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    position: relative;
+    border-radius: $button-border-radius;
+    background: $button-bg-color;
+    color: $button-text-color;
+    font-size: 0.875rem;
+    font-weight: 500;
+    transition: background-color 0.3s ease, color 0.3s ease;
+
+    &:hover {
+        background-color: $secondary-color;
+        
+        .chess-icon {
+            opacity: 1;
+            margin: 0 0.3125rem;
+        }
+    }
+
+    .chess-icon {
+        transition: opacity 0.3s ease, margin 0.3s ease;
+        font-size: 1.25rem;
+        opacity: 0;
+    }
+}

@@ -1,0 +1,15 @@
+.promo-banner {
+    .promo-banner-wrapper {
+        display: flex;
+        gap: 20px;
+
+        .promo-banner-item {
+            width: 33.33%;
+            background-color: $box-background-color-light;
+            border-radius: $border-radius;
+            box-shadow: $box-shadow-border;
+            height: 250px;
+            
+        }
+    }
+}
